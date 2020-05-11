@@ -1,0 +1,41 @@
+.header {
+    padding-top: 25px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &-navigation{
+        display: flex;
+        align-items: center;
+    }
+    &-brand {
+        svg {
+            fill: $primary-color;
+        }
+    }
+
+    &-menu {
+        display: flex;
+        margin-left: 40px;
+
+    li {
+        font-size: 0.875rem;
+    }
+
+    .active {
+        font-weight: bold;
+    }
+
+    a {
+        color: $txt-color;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    }
+}
