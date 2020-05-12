@@ -1,0 +1,17 @@
+.poster {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+
+    &-bg{
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        background-position: center center;
+        background-size: cover;
+    }
+
+}
