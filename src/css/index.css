@@ -67,6 +67,37 @@ body {
   padding: 0 5%;
 }
 
+.rating {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+}
+.rating-label {
+  margin-right: 10px;
+}
+.rating-rate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #141414;
+  border-radius: 50%;
+  border: 3px solid #4fcc75;
+}
+.rating .btn {
+  display: inline-flex;
+  border: 0;
+  background: rgba(20, 20, 20, 0.5);
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px 30px;
+  border-radius: 4px;
+}
+.rating .btn i {
+  font-size: 0.75rem;
+}
+
 .header {
   position: absolute;
   z-index: 2;
@@ -199,6 +230,19 @@ body {
   height: 100%;
   background-position: center center;
   background-size: cover;
+  opacity: 0.8;
+}
+.poster-content {
+  width: 60%;
+}
+.poster-content h3 {
+  font-size: 1.875rem;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+.poster-content h2 {
+  font-size: 4.375rem;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -12,6 +12,20 @@
         height: 100%;
         background-position: center center;
         background-size: cover;
+        opacity: .8;
     }
 
+    &-content {
+        width: 60%;
+        h3 {
+            font-size: 1.875rem;
+            font-weight: lighter;
+            margin-bottom: 20px;
+        }
+
+        h2{
+            font-size: 4.375rem;
+            font-weight: bold;
+        }
+    }
 }

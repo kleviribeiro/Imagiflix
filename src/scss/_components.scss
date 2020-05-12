@@ -1,0 +1,37 @@
+.rating {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+
+    &-label {
+        margin-right: 10px;
+    }
+
+    &-rate {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: $site-background;
+        border-radius: 50%;
+        border: 3px solid $circle-color;
+    }
+
+    .btn {
+        display: inline-flex;
+        border: 0;
+        background: rgba($site-background, .5);
+        color: $txt-color;
+        font-size: 1rem;
+        padding: 10px 30px;
+        border-radius: 4px;
+
+        i {
+            font-size: .75rem;
+        }
+    
+    }
+
+    
+}
