@@ -17,21 +17,29 @@
         border-radius: 50%;
         border: 3px solid $circle-color;
     }
-
+}
     .btn {
         display: inline-flex;
+        align-items: center;
         border: 0;
         background: rgba($site-background, .5);
         color: $txt-color;
         font-size: 1rem;
         padding: 10px 30px;
         border-radius: 4px;
+        cursor: pointer;
 
-        i {
+        &:hover {
+            background: rgba($txt-color, .8);
+            color: $site-background;
+            transition: all .3s ease;
+        }
+
+        i { 
+            margin-right: 10px;
             font-size: .75rem;
         }
     
     }
 
     
-}
