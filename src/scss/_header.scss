@@ -33,9 +33,26 @@
         text-decoration: none;
         display: block;
         padding: 10px;
+
         &:hover {
             text-decoration: underline;
+                }
         }
     }
+
+    &-profile {
+        display: flex;
+        align-items: center;
+    }
+
+    &-search{
+        margin-right: 30px;
+        i {
+            font-size: 1.25rem;
+        }
+    }
+    &-avatar {
+        display: flex;
+        align-items: center;
     }
 }
